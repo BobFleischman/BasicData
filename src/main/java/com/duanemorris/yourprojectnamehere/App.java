@@ -5,11 +5,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 import com.duanemorris.yourprojectnamehere.config.AppConfiguration;
 
-/**
- * Hello world!
- *
- * http://www.tutorialspoint.com/spring/spring_java_based_configuration.htm
- */
 public class App 
 {
     public static void main( String[] args )
@@ -18,6 +13,6 @@ public class App
     	   for (String name : ctx.getBeanDefinitionNames()) {
     		   System.out.println(name);
     	   }
-        System.out.println( "Hello World!" );
+        System.out.println( "Project Has Started" );
     }
 }

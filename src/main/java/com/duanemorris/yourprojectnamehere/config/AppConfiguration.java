@@ -14,8 +14,7 @@ import org.springframework.core.io.ClassPathResource;
  * Here is how you would import an xml resource
  */
 //@ImportResource({
-//  "classpath:META-INF/spring/pmaweb-app-context.xml",
-//  "classpath:META-INF/spring/web-context.xml",
+//  "classpath:META-INF/spring/dminfo-app-context.xml",
 //})
 public class AppConfiguration {
 
